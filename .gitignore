@@ -15,3 +15,5 @@ doc/api/
 
 .DS_Store
 .vscode
+
+android/gradle
