@@ -38,7 +38,7 @@ class _LogoAppState extends State<LogoApp> with SingleTickerProviderStateMixin {
     return Center(
       child: Container(
         margin: EdgeInsets.symmetric(vertical: 10),
-        height: animation.value,
+        height: animation.value, // animation.value就是上面动画计算出来的值的大小
         width: animation.value,
         child: FlutterLogo(),
       ),
